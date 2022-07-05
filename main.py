@@ -943,6 +943,5 @@ dispatcher.add_handler(statsHandler)
 dispatcher.add_handler(CallbackQueryHandler(query_edit))
 
 dispatcher.add_handler(con_superleagues_handler)
-dispatcher.add_handler(con_hexamya_handler)
 
 updater.start_polling()
